@@ -1,4 +1,4 @@
-fonction tri()
+fonction tri():entier
 
     entier: tableauA[],tableauB[]tableauFussion[],tailleTabA,tailleTabB,tailleTabFussion,i,j,m,temp
     debut
@@ -48,7 +48,7 @@ temps O(n3)
 espace O(1)i,j,m,temp
 ////////////////////////////////////////////////////////////////////////////////////////
 
-fonction cercle():
+fonction cercle():bolean
     entier:x_cercleA,y_cercleA,r_cercleA,x_cercleB,y_cercleB,r_cercleB,
 
 
@@ -74,7 +74,7 @@ fonction cercle():
             ecrire " ils ne sont pas en intersections"
             return vrai
         finsi
-
+    fin
 
 /////
 B) le complexité
